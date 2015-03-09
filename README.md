@@ -7,8 +7,9 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 <!-- toc -->
 
 * [Roadmap](#roadmap)
-  * [Views](#views)
   * [Features](#features)
+  * [Core Stories](#core-stories)
+  * [Views](#views)
 * [How to use](#how-to-use)
   * [Requirements](#requirements)
   * [Installation](#installation)
@@ -34,9 +35,9 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 	* tracks streaks of consecutive days (sort by highest to lowest)
 	* sort users with longest streaks
 * Login/Register and OAUTH (facebook, twitter, google)
-* ShareIt - share explots on social media
+* ShareIt - share exploits on social media
 
-### Core Features
+### Core Stories
 
 ##### Social Sign In
 ```
