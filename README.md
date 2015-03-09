@@ -7,8 +7,9 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 <!-- toc -->
 
 * [Roadmap](#roadmap)
-  * [Views](#views)
   * [Features](#features)
+  * [Core Stories](#core-stories)
+  * [Views](#views)
 * [How to use](#how-to-use)
   * [Requirements](#requirements)
   * [Installation](#installation)
@@ -36,7 +37,7 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 * Login/Register and OAUTH (facebook, twitter, google)
 * ShareIt - share explots on social media
 
-### Core Features
+### Core Stories
 
 ##### Social Sign In
 ```
