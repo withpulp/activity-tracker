@@ -1,3 +1,11 @@
+AccountsTemplates.configureRoute('signIn', {
+  name: 'login',
+  path: '/login',
+  template: 'login',
+  layoutTemplate: 'layout',
+  redirect: '/',
+});
+
 AccountsTemplates.configure({
   // Behaviour
   confirmPassword: true,
@@ -32,11 +40,26 @@ AccountsTemplates.configure({
   // Texts
   texts: {
     button: {
-      signUp: "Register Now!"
+      signIn: 'Login',
+      signUp: 'Register'
     },
-    socialSignUp: "Register with Social",
+    socialSignUp: 'Register with Social',
     title: {
-      forgotPwd: "Recover Your Passwod"
+      forgotPwd: 'Recover Your Password'
     },
   }
+});
+
+Router.route('/privacy', {
+  name: 'privacy'
+}, function () {
+  this.render('privacy');
+  SEO.set({ title: Meteor.App.NAME });
+});
+
+Router.route('/terms-of-use', {
+  name: 'terms'
+}, function () {
+  this.render('terms');
+  SEO.set({ title: Meteor.App.NAME });
 });
