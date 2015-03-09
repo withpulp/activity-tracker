@@ -36,6 +36,35 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 * Login/Register and OAUTH (facebook, twitter, google)
 * ShareIt - share explots on social media
 
+### Core Features
+
+##### Social Sign In
+```
+When I'm ready to track an acitivty
+I want to sign in using Twitter, Google, Facebook  
+So that I can quickly access my profile
+```
+
+##### Tracking Initiation
+```
+When I'd like to track an activity
+I want to be able to automate the tracking
+So that I can make more productive use of my time
+```
+
+##### Current Streak
+```
+When I'm tracking an activity
+I want to see how long my current streak is
+So that I can gauge my progress
+```
+
+##### Longest Streak
+```
+When I'm tracking an activity
+I want to see how long my longest streak was
+So that I can gauge my progress
+```
 ### Views
 
 * Leaderboard
