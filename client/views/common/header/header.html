@@ -1,3 +1,18 @@
 <template name="header">
-  <p>header</p>
+  <div class="ui fixed large menu">
+    <a class="logo item">
+      Logo
+    </a>
+    <div class="right menu">
+      {{#if currentUser}}
+        <div class="item">
+          <div class="ui button">Log-out</div>
+        </div>
+      {{else}}
+        <div class="item">
+          <div class="ui button">Log-in</div>
+        </div>
+      {{/if}}
+    </div>
+  </div>
 </template>

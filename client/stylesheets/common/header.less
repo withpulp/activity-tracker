@@ -1,0 +1,36 @@
+@import '../utilities/helpers';
+@import '../utilities/variables';
+
+// header styles
+
+.ui.layout {
+
+	.header {
+
+		.ui.large.menu {
+
+			.item {
+
+				&:before {
+					background: transparent;
+				}
+
+				&.logo {
+				  width: 100%;
+			   	background: transparent;
+				  text-align: center;
+			  }
+			}
+
+			.right.menu {
+				position: absolute;
+        top: 0;
+        right: 0;
+
+				.item {
+					padding: 0.75em 0.25em;
+				}
+			}
+		}
+  }
+}
