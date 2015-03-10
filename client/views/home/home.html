@@ -2,7 +2,11 @@
   <div class="animated fadeIn home view">
     <div class="ui stackable page grid">
       <div class="column">
-        <p>if user show dashboard else show leaderboard</p>
+        {{#if currentUser}}
+          {{> dashboard}}
+        {{else}}
+          {{> leaderboard}}
+        {{/if}}
       </div>
     </div>
   </div>
