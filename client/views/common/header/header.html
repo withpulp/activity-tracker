@@ -6,11 +6,11 @@
     <div class="right menu">
       {{#if currentUser}}
         <div class="item">
-          <a class="ui button">Log-out</a>
+          <a class="ui logout button">Log-out</a>
         </div>
       {{else}}
         <div class="item">
-          <a class="ui button" href="{{pathFor 'login'}}">Log-in</a>
+          <a class="ui login button" href="{{pathFor 'login'}}">Log-in</a>
         </div>
       {{/if}}
     </div>
