@@ -17,7 +17,6 @@ less
 jquery
 momentjs:moment
 service-configuration
-accounts-ui
 accounts-facebook
 accounts-twitter
 accounts-google
