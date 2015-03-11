@@ -134,6 +134,11 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
 * Accounts
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
   * [useraccounts:semantic-ui](https://github.com/meteor-useraccounts/semantic-ui)
+  * [service-configuration](https://atmospherejs.com/meteor/service-configuration)
+  * [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
+  * [accounts-facebook](https://atmospherejs.com/meteor/accounts-facebook)
+  * [accounts-twitter](https://atmospherejs.com/meteor/accounts-twitter)
+  * [accounts-google](https://atmospherejs.com/meteor/accounts-google)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
   * [natestrauser:animate-css](https://github.com/nate-strauser/meteor-animate-css/)
