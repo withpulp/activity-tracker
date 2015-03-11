@@ -24,7 +24,7 @@ Router.route('/terms-of-use', {
 
 AccountsTemplates.configure({
   // Behaviour
-  confirmPassword: true,
+  confirmPassword: false,
   enablePasswordChange: true,
   forbidClientAccountCreation: false,
   overrideLoginErrors: true,
