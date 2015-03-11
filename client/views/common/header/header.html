@@ -2,6 +2,11 @@
   <div class="ui fixed large menu">
     <a class="logo item" href="{{pathFor 'home'}}">
       Logo
+      {{#if currentUser}}
+        <span class="animated greeting lightSpeedIn">
+          Positive thoughts, {{currentUser.username}}
+        </span>
+      {{/if}}
     </a>
     <div class="right menu">
       {{#if currentUser}}
