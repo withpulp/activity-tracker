@@ -1,7 +1,7 @@
 AccountsTemplates.configureRoute('signIn', {
-  name: 'login',
-  path: '/login',
-  template: 'login',
+  name: 'signIn',
+  path: '/sign-in',
+  template: 'signIn',
   layoutTemplate: 'layout',
   redirect: '/',
 });
@@ -55,14 +55,13 @@ AccountsTemplates.configure({
 
   // Texts
   texts: {
-    socialSignUp: 'Register with Social',
     title: {
       signIn: 'Sign In',
-      signUp: 'Register',
+      signUp: 'Register with Social',
       forgotPwd: 'Recover Your Password'
     },
     button: {
-      signIn: 'Login',
+      signIn: 'Sign In',
       signUp: 'Register'
     }
   }
