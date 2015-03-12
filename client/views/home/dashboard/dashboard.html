@@ -1,3 +1,11 @@
 <template name="dashboard">
-	<p>dashboard</p>
+	<div class="animated fadeIn dashboard view">
+		{{> quote}}
+		<div class="ui divider"></div>
+		<!-- {{#if notTracking}} -->
+		<p>Looks like you haven't started tracking a habit yet. What're you waiting for? Take the plunge and press that big shiny button!</p>
+		<button class="ui fluid primary button">Start Tracking</button>
+		<!-- {{else}} -->
+		<!-- tracking template -->
+	</div>
 </template>
