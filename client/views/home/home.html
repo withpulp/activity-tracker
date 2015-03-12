@@ -1,14 +1,9 @@
 <template name="home">
   <div class="animated fadeIn home view">
-    <div class="ui stackable page grid">
-      <div class="column">
-        {{#if currentUser}}
-          {{> dashboard}}
-          {{> menu}}
-        {{else}}
-          {{> leaderboard}}
-        {{/if}}
-      </div>
-    </div>
+    {{#if currentUser}}
+      {{> dashboard}}
+    {{else}}
+      {{> leaderboard}}
+    {{/if}}
   </div>
 </template>
