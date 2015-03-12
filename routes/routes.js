@@ -11,3 +11,10 @@ Router.route('/leaderboard', {
   this.render('leaderboard');
   SEO.set({ title: Meteor.App.NAME });
 });
+
+Router.route('/dashboard', {
+  name: 'dashboard'
+}, function () {
+  this.render('dashboard');
+  SEO.set({ title: Meteor.App.NAME });
+});
