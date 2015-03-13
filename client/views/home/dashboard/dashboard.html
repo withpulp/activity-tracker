@@ -3,43 +3,10 @@
 		{{> quote}}
 		<div class="ui divider"></div>
 		<!-- {{#if notTracking}} -->
-		<p>Looks like you haven't started tracking a habit yet. What're you waiting for? Take the plunge and press that big shiny button!</p>
-		<button class="ui fluid primary start-tracking button">Start Tracking</button>
+		  <p>Looks like you haven't started tracking a habit yet. What're you waiting for? Take the plunge and press that big shiny button!</p>
+		  <button class="ui fluid primary start-tracking button">Start Tracking</button>
 		<!-- {{else}} -->
-		<!-- tracking template -->
-		<div class="ui divider"></div>
-		<div class="ui statistic">
-		  <h2 class="header">
-		    Current Streak
-		  </h2>
-		  <div class="value">
-		    1 day
-		  </div>
-			<div class="label">
-		    March 8
-		  </div>
-		</div>
-		<div class="ui divider"></div>
-		<div class="ui statistic">
-			<h2 class="header">
-		    Longest Streak
-		  </h2>
-		  <div class="value">
-		    1 day
-		  </div>
-		  <div class="label">
-		    March 8
-		  </div>
-		</div>
-		<div class="ui divider"></div>
-		<p class="ui cta">
-			Did you end your streak?
-			<small>
-				Hey it happens!
-				<span class="start-tracking">
-					Start tracking again!
-				</span>
-			</small>
-		</p>
+		  {{> stats}}
+		<!-- {{/if}} -->
 	</div>
 </template>
