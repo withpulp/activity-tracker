@@ -1,0 +1,1 @@
+Meteor.publish('standings', function() {  return Standings.find();});
