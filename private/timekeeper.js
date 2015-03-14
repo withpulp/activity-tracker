@@ -6,7 +6,7 @@
 
 Template.newActivity.events({
   'click .start-tracking': function (event) {
-    var currentTime = event.moment();
+    currentTime = moment().add(7, 'h');
     console.log(currentTime);
   }
 });
@@ -18,3 +18,5 @@ Meteor.methods({
 })
 
 //User has n = 0 days by default. Every 24 hours, add days + 1
+//currentTime = 1pm
+// day = 1 + 24 hours
