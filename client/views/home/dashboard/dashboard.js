@@ -9,5 +9,10 @@ Template['dashboard'].events({
   'click .start-tracking': function () {
     var now = moment();
     console.log(now);
+
+    // @TODO: insert event object to Stats.events[]
+    // event: { start: now }
+    // if events[].count() > 0 => update previous event: { end: now }
+    // and create new event: { start: now }
   }
 });
