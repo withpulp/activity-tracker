@@ -2,7 +2,8 @@ Router.route('/', {
   name: 'home',
   waitOn: function () {
     return [
-      Meteor.subscribe('standings')
+      Meteor.subscribe('standings'),
+      Meteor.subscribe('stats')
     ]
   },
   action: function () {
@@ -33,8 +34,18 @@ Router.route('/leaderboard', {
 });
 
 Router.route('/dashboard', {
-  name: 'dashboard'
+  name: 'dashboard',
+  waitOn: function () {
+    return [
+      Meteor.subscribe('stats')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('dashboard');
+    else
+      this.render('loading');
+  }
 }, function () {
-  this.render('dashboard');
   SEO.set({ title: Meteor.App.NAME });
 });
