@@ -1,0 +1,1 @@
+Meteor.publish('acts', function() {  return Acts.find();});

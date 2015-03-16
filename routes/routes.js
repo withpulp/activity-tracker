@@ -3,7 +3,7 @@ Router.route('/', {
   waitOn: function () {
     return [
       Meteor.subscribe('standings'),
-      Meteor.subscribe('stats')
+      Meteor.subscribe('acts')
     ]
   },
   action: function () {
@@ -37,7 +37,7 @@ Router.route('/dashboard', {
   name: 'dashboard',
   waitOn: function () {
     return [
-      Meteor.subscribe('stats')
+      Meteor.subscribe('acts')
     ]
   },
   action: function () {
