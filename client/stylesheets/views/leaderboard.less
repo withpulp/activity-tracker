@@ -5,23 +5,28 @@
 
 .leaderboard.view {
 
-	i.circular.trophy.icon {
-		color: #f4d63a;
-	}
-
-	.ui.table {
-		box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32);
-	}
 	.ui.icon.header {
 		margin: 0.5em auto;
     font-size: 1.5em;
 
 		.circular.icon {
 			margin: 0 auto;
+			color: #f4d63a;
       font-size: 1em;
 		}
 	}
-	tr:nth-child(even) {
-		background: #C9E4C1
+
+	.ui.table {
+		box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32);
+
+		tbody {
+
+			tr {
+
+				&:nth-child(even) {
+				  background: fade(@highlight-color, 50%);
+				}
+			}
+		}
 	}
 }
