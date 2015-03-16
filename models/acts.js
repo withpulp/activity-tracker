@@ -1,6 +1,6 @@
-Stats = new Mongo.Collection('stats');
+Acts = new Mongo.Collection('acts');
 
-Stats.allow({
+Acts.allow({
 	'insert': function(userId, doc) {
 		return !!userId;
 	},
