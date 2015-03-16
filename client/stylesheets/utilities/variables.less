@@ -12,10 +12,10 @@
 
 // Brand
 
-@primary-color: #71CFFF;
-@secondary-color: #2EC0E8;
-@highlight-color: #4BEEFF;
-@background-color: #EBF3FF;
+@primary-color: #da5081;
+@secondary-color: #da5081;
+@highlight-color: #da5081;
+@background-color: #fff;
 @mute-color: #E8E8E8;
 @text-color: #080909;
 
@@ -42,7 +42,13 @@
 
 // Typography
 
-@font-family-sans-serif:  'Open Sans', Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  src: url('/fonts/AvenirLTStd-Light.woff');
+  src: url('/fonts/AvenirLTStd-Medium.woff');
+}
+
+@font-family-sans-serif:  'AvenirLTStd-Light', Helvetica, Arial, sans-serif;
 @font-family-serif:       'Lora', Georgia, 'Times New Roman', Times, serif;
 @font-family-monospace:   Menlo, Monaco, Consolas, 'Courier New', monospace;
 @font-family-base:        @font-family-sans-serif;
