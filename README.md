@@ -41,7 +41,7 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 
 ##### Social Sign In
 ```
-When I'm ready to track an acitivty
+When I'm ready to track an activity
 I want to sign in using Twitter, Google, Facebook  
 So that I can quickly access my profile
 ```
@@ -53,18 +53,32 @@ I want to be able to automate the tracking
 So that I can make more productive use of my time
 ```
 
-##### Current Streak
+##### Daily Tracking
 ```
 When I'm tracking an activity
+I would like to show intent on a daily basis
+So that I can keep a daily tally of my commitment
+```
+
+##### Current Streak
+```
+When I've started an activity
 I want to see how long my current streak is
 So that I can gauge my progress
 ```
 
 ##### Longest Streak
 ```
-When I'm tracking an activity
+When I've started an activity
 I want to see how long my longest streak was
 So that I can gauge my progress
+```
+
+##### Leaderboard
+```
+When I'm tracking an activity
+I want to see how I'm doing compared to others
+So that I can fuel my motivation
 ```
 ### Views
 
@@ -151,6 +165,8 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
   * [less](https://github.com/meteor/meteor/tree/devel/packages/less)
   * [jquery](https://github.com/meteor/meteor/tree/devel/packages/jquery)
   * [momentjs:moment](https://github.com/moment/moment/)
+  * [email](http://docs.meteor.com/#/full/email)
+  * [synced-cron](https://github.com/percolatestudio/meteor-synced-cron)
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
 

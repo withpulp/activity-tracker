@@ -21,3 +21,5 @@ accounts-facebook
 accounts-twitter
 accounts-google
 accounts-ui
+percolate:synced-cron
+email
