@@ -9,7 +9,7 @@ Template['dashboard'].events({
   'click .start-tracking': function (e) {
     e.preventDefault();
 
-    var now = moment(),
+    var now = new Date(),
         user = Meteor.user().username,
         act = {
           username: user,
