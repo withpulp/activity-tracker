@@ -1,0 +1,1 @@
+Template['quotes'].helpers({  quotes: function() {    var quotes = Quotes.find().fetch(),        quote = quotes[Math.floor(Math.random()*quotes.length)];    return [quote];  }});
