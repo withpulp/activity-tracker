@@ -30,8 +30,8 @@ Meteor.startup(function() {
     'service': 'twitter'
   }, {
     $set: {
-      'consumerKey': 'XXXXXXXXXXXX',
-      'secret': 'XXXXXXXX'
+      'consumerKey': 'hrP3jt7nWqUz3bX12WWFF3XTR',
+      'secret': '54vJBevQg7fKYpyaoqZD1CvEQFQa8TicgXfyhLEBZmJazEgx5W'
     }
   }, {
     upsert: true
