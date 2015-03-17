@@ -3,6 +3,13 @@
     {{#if currentUser}}
       {{> dashboard}}
     {{else}}
+    {{> quotes}}
+      <h2>Form a New Habit Or Rid Yourself of Unhealthy Ones</h2>
+      <p>Small, sustainable steps over a span of 21 days can set you on your path to
+        writing the novel you've dreamed of, or getting into the shape you always wanted.</p>
+      <p>We challenge you to take daily action towards your goal. Any amount of action will
+      reap huge rewards over time.</p>
+      <p>Others, like you, have already begun their journey. See their progress in our leaderboard:</p>
       {{> leaderboard}}
     {{/if}}
   </div>
