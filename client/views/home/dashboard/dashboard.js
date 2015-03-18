@@ -24,5 +24,14 @@ Template['dashboard'].events({
     // new: now + 1 day using moment()
     // use new variable to check when to enable track-again button
     // track-again click event will have same object
+
+
+    // @TODO: Insert '1 day' into DB
+    // Capture moment() when user clicks "Commit Today" in new variable 'dailyCommit'
+    // At 12am, cron checks if difference between 'dailyGoal' (now + 1 day) and 'dailyCommit' is between 24 - 47 hours
+    // If yes, add '1 day' into user's streak
+    // And display success messaging on UI
+    // If no, reset tracker
+    // And display error messaging on UI
   }
 });
