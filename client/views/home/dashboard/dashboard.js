@@ -19,8 +19,10 @@ Template['dashboard'].events({
     Acts.insert(act);
 
     // @TODO: insert event object to Acts.events[]
-    // event: { start: now }
-    // if events[].count() > 0 => update previous event: { end: now }
-    // and create new event: { start: now }
+    // event object has username, start, and new
+    // start: now
+    // new: now + 1 day using moment()
+    // use new variable to check when to enable track-again button
+    // track-again click event will have same object
   }
 });
