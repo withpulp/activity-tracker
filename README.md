@@ -145,6 +145,8 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
   * [meteor-platform](https://github.com/meteor/meteor/tree/devel/packages/meteor-platform)
 * Routing
   * [iron:router](https://github.com/EventedMind/iron-router)
+* Collections
+  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers)
 * Accounts
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
   * [useraccounts:semantic-ui](https://github.com/meteor-useraccounts/semantic-ui)
