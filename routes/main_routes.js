@@ -1,9 +1,12 @@
 Router.route('/', {
   name: 'home',
+  data: function() {
+    return Acts.find({username: Meteor.user().username});
+  },
   waitOn: function () {
     return [
       Meteor.subscribe('standings'),
-      Meteor.subscribe('acts'),
+      Meteor.subscribe('acts', 'username'),
       Meteor.subscribe('quotes')
     ]
   },

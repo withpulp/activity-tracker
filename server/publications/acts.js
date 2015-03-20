@@ -1,1 +1,1 @@
-Meteor.publish('acts', function() {  return Acts.find();});
+Meteor.publish('acts', function(username) {  return Acts.find({username: username});});
