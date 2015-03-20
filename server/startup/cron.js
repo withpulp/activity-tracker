@@ -1,13 +1,15 @@
 SyncedCron.add({
-  name: 'Crunch some important numbers for the marketing department',  
+  name: 'New Day',
   schedule: function(parser) {
     // parser is a later.parse object
-    return parser.text('every 5 sec');
+    return parser.text('every 24 hours');
   },
   job: function() {
-    var numbersCrunched = "fart";
-    console.log(numberscrunched);
+    var numbersCrunched = 5 + 5;
+    return numbersCrunched;
   }
+
 });
 
-SyncedCron.start();
+
+  SyncedCron.start();
