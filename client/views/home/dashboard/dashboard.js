@@ -1,7 +1,14 @@
+Template.dashboard.rendered = function() {
+
+};
+
 Template['dashboard'].helpers({
   notTracking: function() {
-    // @TODO: if Acts.length === 0 => return true
-    // check stats only for currentUser.username
+    // @TODO:
+    // create publication & subscription to Acts for currentUser
+    // if Acts.length === 0 => return true
+    // else
+    // return false
   }
 });
 
@@ -16,7 +23,8 @@ Template['dashboard'].events({
           start: now
         }
 
-    Acts.insert(act);
+    console.log(act);
+    //Acts.insert(act);
 
     // @TODO: insert event object to Acts.events[]
     // event object has username, start, and new
