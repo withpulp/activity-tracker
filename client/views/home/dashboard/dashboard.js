@@ -3,6 +3,9 @@ Template.dashboard.rendered = function() {
 };
 
 Template['dashboard'].helpers({
+  //userActs: function() {
+  //  return Acts.find({ username: username }).fetch();
+  //},
   notTracking: function() {
     // @TODO:
     // create publication & subscription to Acts for currentUser
@@ -20,11 +23,12 @@ Template['dashboard'].events({
         user = Meteor.user().username,
         act = {
           username: user,
-          start: now
+          start: now,
+          days: 1
         }
 
     console.log(act);
-    //Acts.insert(act);
+    Acts.insert(act);
 
     // @TODO: insert event object to Acts.events[]
     // event object has username, start, and new
