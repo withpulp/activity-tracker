@@ -8,7 +8,7 @@ Template['dashboard'].helpers({
     // create publication & subscription to Acts for currentUser
     // if Acts.length === 0 => return true
     // else
-    // return false;
+    // return false
   }
 });
 
