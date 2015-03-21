@@ -25,13 +25,14 @@ Template['dashboard'].events({
 
     console.log(act);
     //Acts.insert(act);
-
+    
     // @TODO: insert event object to Acts.events[]
     // event object has username, start, and new
     // start: now
     // new: now + 1 day using moment()
     // use new variable to check when to enable track-again button
     // track-again click event will have same object
+
 
     // @TODO: Insert '1 day' into DB
     // Every day, at 12am, insert new day key into database (explore CRON task)
