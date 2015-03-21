@@ -20,9 +20,11 @@ Template['dashboard'].events({
     e.preventDefault();
 
     var now = new Date(),
-        user = Meteor.user().username,
+        userId = Meteor.userId(),
+        username = Meteor.user().username,
         act = {
-          username: user,
+          userId: userId,
+          username: username,
           start: now,
           days: 1
         }
