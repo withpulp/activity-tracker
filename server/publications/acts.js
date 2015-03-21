@@ -1,1 +1,1 @@
-Meteor.publish('acts', function() {  return Acts.find();});
+Meteor.publish('acts', function() {  var currentUserId = this.userId;  return Acts.find({userId: currentUserId});});

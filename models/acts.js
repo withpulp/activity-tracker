@@ -6,6 +6,9 @@ Acts.helpers({
     if (user) {
       return user.username;
     }
+  },
+  userActs: function(username) {
+    return Acts.find({username: username});
   }
 });
 
