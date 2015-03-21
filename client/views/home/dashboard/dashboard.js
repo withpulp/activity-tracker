@@ -25,8 +25,10 @@ Template['dashboard'].events({
         act = {
           userId: userId,
           username: username,
-          start: now,
-          days: 1
+          days: 1,
+          activity: {
+            start: now
+          }
         }
 
     console.log(act);
