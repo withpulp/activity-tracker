@@ -1,4 +1,4 @@
-SyncedCron.add({
+/*SyncedCron.add({
   name: 'New Day',
   schedule: function(parser) {
     // parser is a later.parse object
@@ -10,5 +10,9 @@ SyncedCron.add({
   }
 
 });
+
+
+//TODO At 12am, loop through db to check if commited is true for day event
+//
 
 //SyncedCron.start();
