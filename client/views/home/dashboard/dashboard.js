@@ -32,13 +32,8 @@ Template['dashboard'].events({
         }
 
     console.log(act);
-<<<<<<< HEAD
-    //Acts.insert(act);
-    
-=======
     Acts.insert(act);
-
->>>>>>> 5b55b53e03a42207f3a9cb3cc60401615241ba44
+    
     // @TODO: insert event object to Acts.events[]
     // event object has username, start, and new
     // start: now
