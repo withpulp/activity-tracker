@@ -34,6 +34,7 @@ Demo here: [withpulp.meteor.com](http://withpulp.meteor.com).
 	* tracks when user quits event (deletes account)
 	* tracks streaks of consecutive days (sort by highest to lowest)
 	* sort users with longest streaks
+* CRUD events
 * Login/Register and OAUTH (facebook, twitter, google)
 * ShareIt - share exploits on social media
 
@@ -74,12 +75,21 @@ I want to see how long my longest streak was
 So that I can gauge my progress
 ```
 
+##### Multiple Events
+```
+When I've started a new activity
+I want to be able to track it alongside other activties
+So that I can learn about my strengths
+```
+
 ##### Leaderboard
 ```
 When I'm tracking an activity
 I want to see how I'm doing compared to others
 So that I can fuel my motivation
 ```
+
+
 ### Views
 
 * Leaderboard

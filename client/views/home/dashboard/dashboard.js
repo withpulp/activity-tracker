@@ -3,9 +3,6 @@ Template.dashboard.rendered = function() {
 };
 
 Template['dashboard'].helpers({
-  //userActs: function() {
-  //  return Acts.find({ username: username }).fetch();
-  //},
   notTracking: function() {
     // @TODO:
     // create publication & subscription to Acts for currentUser
@@ -20,27 +17,21 @@ Template['dashboard'].events({
     e.preventDefault();
 
     var now = new Date(),
-        userId = Meteor.userId(),
-        username = Meteor.user().username,
+        user = Meteor.user().username,
         act = {
-          userId: userId,
-          username: username,
-          days: 1,
-          activity: {
-            start: now
-          }
+          username: user,
+          start: now
         }
 
     console.log(act);
-    Acts.insert(act);
-    
+    //Acts.insert(act);
+
     // @TODO: insert event object to Acts.events[]
     // event object has username, start, and new
     // start: now
     // new: now + 1 day using moment()
     // use new variable to check when to enable track-again button
     // track-again click event will have same object
-
 
     // @TODO: Insert '1 day' into DB
     // Every day, at 12am, insert new day key into database (explore CRON task)
